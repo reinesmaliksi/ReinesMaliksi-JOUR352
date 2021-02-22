@@ -25,25 +25,6 @@ body {
   margin: 0 auto;
 }
 
-.menu {
-  margin: 0 0 0 0;
-  text-align: center;
-  display: inline;
-}
-
-.description {
-  margin: 10 0 10 0;
-}
-
-#title {
-  color: #33485e;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  font-weight: 600;
-  text-align: center;
-  margin: 20px 0 0 0;
-}
-
 .sectionheader {
   /* top | right | bottom | left */
   margin: 20px 0 10px 0;
@@ -72,6 +53,19 @@ body {
   margin: 2px 0 0 0;
 }
 
+.description {
+  margin: 10 0 10 0;
+}
+
+.menu ul {
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+}
+
 #degrees ul {
   margin: 5px 0 0 0;
 }
@@ -81,8 +75,13 @@ body {
   font-size: 1em;
 }
 
-#do li{
-
+#title {
+  color: #33485e;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 0 0;
 }
 
 .top {
