@@ -63,14 +63,17 @@ body {
 }
 
 .menu li {
+  /* Disregard connecting hyperlinks */
   display: inline;
 }
 
 #degrees ul {
+  /* Edits education list section */
   margin: 5px 0 0 0;
 }
 
 #do ul {
+  /* Edits skills list section */
   margin: 5px 0 0 0;
   font-size: 1em;
 }
@@ -85,6 +88,7 @@ body {
 }
 
 .top {
+  /* Edits mission statement */
   width: 60%
   min-width: 300px;
   margin: 0 auto;
