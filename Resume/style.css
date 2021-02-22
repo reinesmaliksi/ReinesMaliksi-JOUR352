@@ -7,6 +7,13 @@ body {
   font-weight: 400;
 }
 
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 #name {
   font-size: 3em;
   color: #33485e;
@@ -18,13 +25,26 @@ body {
   margin: 0 auto;
 }
 
-strong {
+.menu {
+  margin: 0 0 0 0;
+  text-align: center;
+  display: inline;
+}
+
+.description {
+  margin: 10 0 10 0;
+}
+
+#title {
   color: #33485e;
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 0 0;
 }
 
-.sectionheader{
+.sectionheader {
   /* top | right | bottom | left */
   margin: 20px 0 10px 0;
   width: 70%;
@@ -35,21 +55,25 @@ strong {
   color: #fff;
 }
 
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
-h5 {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin: 2px 0 0 0;
+}
 
+#degrees ul {
+  margin: 5px 0 0 0;
 }
 
 #do ul {
@@ -59,4 +83,11 @@ h5 {
 
 #do li{
 
+}
+
+.top {
+  width: 60%
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
