@@ -28,9 +28,20 @@ figure {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  text-align: center;
 }
 
 figcaption {
   color: gray;
   font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+  column-count: 3;
+  column-gap: 200px;
+  column-width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
