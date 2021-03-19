@@ -45,3 +45,11 @@ figcaption {
   margin-right: auto;
   text-align: center;
 }
+
+footer {
+  text-align:center;
+  background-color: black;
+  text-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 100%;
+}
