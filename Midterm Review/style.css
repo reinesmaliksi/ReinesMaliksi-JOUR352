@@ -2,3 +2,21 @@
   margin: 0 auto;
   width: 900px;
 }
+
+#masthead {
+  text-align: center
+}
+
+p {
+  font-family: "Times New Roman", sans-serif;
+}
+
+blockquote {
+  font: 16px/24 px normal helvetica, sans-serif;
+  font size: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: red;
+  margin-left: 50px;
+  
+}
