@@ -6,8 +6,10 @@ body {
 }
 
 #content {
-margin: 0 auto;
-width: 900px;
+  column-count: 1;
+  margin: 0 auto;
+  width: 900px;
+  min-width: 500px;
 }
 
 #masthead {
@@ -28,8 +30,9 @@ h1 {
 figure {
   font-size: 12px;
   color: gray;
-  display: inline-block:block;
+  margin-left: auto;
   width: 100%;
+  background-size: 100%, 100%;
 }
 
 h2 {
