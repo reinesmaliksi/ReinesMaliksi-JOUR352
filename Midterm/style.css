@@ -1,12 +1,17 @@
 
 body {
-  font-family: ''
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 12px;
+  padding: inherit;
 }
 
-#byline {
-  font-family: "Helvetica", sans-serif;
-  font-size: 14px;
-  font-style: italic;
+#content {
+margin: 0 auto;
+width: 900px;
+}
+
+#masthead {
+  text-align: center;
 }
 
 h1 {
@@ -14,6 +19,17 @@ h1 {
   font-size: 48px;
 }
 
+#byline {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+figure {
+
+}
+
 h2 {
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Times New Roman', serif;
+  font-size: 36px;
 }
