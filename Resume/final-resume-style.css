@@ -1,9 +1,9 @@
 /* styles for my resume */
 
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Georgia', Arial, sans-serif;
   font-size: 1em;
-  color:#444;
+  color: black;
   font-weight: 400;
 }
 
@@ -16,7 +16,7 @@ body {
 
 #name {
   font-size: 3em;
-  color: #33485e;
+  color: #black;
   text-transform: uppercase;
   text-align: center;
   border-bottom: 1px solid #33485e;
@@ -29,11 +29,11 @@ body {
   /* top | right | bottom | left */
   margin: 20px 0 10px 0;
   width: 70%;
-  min-width: 300px;
+  min-width: 1250px;
   font-size: 1.5em;
   text-transform: uppercase;
-  background-color: #33485e;
-  color: #fff;
+  background-color: #F0E68C;
+  color: black;
 }
 
 .jobtitle {
@@ -79,7 +79,7 @@ body {
 }
 
 #title {
-  color: #33485e;
+  color: black;
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: 600;
@@ -93,4 +93,12 @@ body {
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  text-family: 'Georgia', sans-serif;
+  color: white;
+  width: 100%
 }
