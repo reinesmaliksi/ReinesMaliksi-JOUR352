@@ -1,0 +1,96 @@
+/* styles for my resume */
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1em;
+  color:#444;
+  font-weight: 400;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#name {
+  font-size: 3em;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.sectionheader {
+  /* top | right | bottom | left */
+  margin: 20px 0 10px 0;
+  width: 70%;
+  min-width: 300px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #fff;
+}
+
+.jobtitle {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.organization {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+  margin: 2px 0 0 0;
+}
+
+.description {
+  margin: 10 0 10 0;
+}
+
+.menu ul {
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+.menu li {
+  /* Disregard connecting hyperlinks */
+  display: inline;
+}
+
+#degrees ul {
+  /* Edits education list section */
+  margin: 5px 0 0 0;
+}
+
+#do ul {
+  /* Edits skills list section */
+  margin: 5px 0 0 0;
+  font-size: 1em;
+}
+
+#title {
+  color: #33485e;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.top {
+  /* Edits mission statement */
+  width: 60%
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
