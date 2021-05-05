@@ -9,11 +9,19 @@ nav {
 
 }
 
-#masthead {
+.masthead {
   font-family: 'Abril Fatface', cursive;
   font-size: 64px;
   text-align: center;
   width: 100%;
+  position: relative;
+}
+
+.publication {
+  position: absolute;
+  top: 50%;
+  left: 50%
+  transform: translate(-50%, -50%);
 }
 
 .section {
@@ -63,7 +71,7 @@ blockquote {
   color: red;
   margin-left: 50px;
   padding-left: 10px;
-  border-left: 4px solid #ccc;
+  border-left: 4px solid #000000;
 }
 
 h2 {
