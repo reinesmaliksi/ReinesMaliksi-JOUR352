@@ -10,11 +10,24 @@ nav {
 }
 
 #masthead {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 64px;
   text-align: center;
   width: 100%;
 }
 
+.section {
+  margin: 20px 0 10px 0;
+  width: 100%;
+  min-width: 1250px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #FA8072;
+  color: #FA8072;
+}
+
 #content {
+  display: center;
   column-count: 1;
   margin: 0 auto;
   width: 900px;
@@ -23,15 +36,15 @@ nav {
 }
 
 h1 {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Times New Roman', sans-serif;
   font-size: 48px;
 }
 
 #byline {
   font-family: 'Times New Roman', sans-serif;
   font-size: 14px;
-  font-size: italic;
-  color: red;
+  font-style: italic;
+  color: black;
 }
 
 figure {
@@ -56,13 +69,13 @@ blockquote {
 h2 {
   font-family: 'Times New Roman', serif;
   font-size: 36px;
-  color: red;
+  color: black;
 }
 
 footer {
   text-align: center;
-  background-color: black;
-  font-family: 'Georgia', sans-serif;
-  color: white;
+  background-color: #FA8072;
+  font-family: 'Abril Fatface', cursive;
+  color: black;
   width: 100%;
 }
